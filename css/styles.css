@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
+
 .hero {
-  background-image: url(../Img/ImagenPrincipalHome.png);   
+  background-image: url(../Img/ImagenPrincipalHome.png);
+  width: 100%;
+  height: 100 vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 100%;
   padding-left: 10.4%;
   padding-right: 10.4%;
   position: relative;
 }
+
 .heroWhite {
   background-color: white;
   background-size: cover;
@@ -24,8 +28,9 @@
   padding-left: 10.4%;
   padding-right: 10.4%;
   position: relative;
- }
- .heroBlack {
+}
+
+.heroBlack {
   background-color: rgb(0, 0, 0);
   background-size: cover;
   background-repeat: no-repeat;
@@ -34,17 +39,20 @@
   padding-left: 10.4%;
   padding-right: 10.4%;
   position: relative;
- }
+}
+
 .logoLopezLaxague {
   width: 172.61px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .logoLopezLaxaguePages {
   width: 172.61px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .heroMain {
   display: grid;
   gap: 1rem;
@@ -53,9 +61,11 @@
   padding-top: 13.4%;
   padding-left: 13.4%;
   padding-right: 13.4%;
-  grid-template-columns: 1fr; 
-  grid-template-rows: 1fr; 1fr; 
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  1fr;
 }
+
 .heroTitle {
   color: black;
   font-weight: 800;
@@ -66,36 +76,42 @@
   text-align: left;
   max-width: max-content;
 }
+
 .heroSubtitle {
   color: black;
   font-weight: 300;
   font-size: 2rem;
   grid-column: 1;
-  grid-row: 3/3; 
+  grid-row: 3/3;
   display: flex;
   text-align: left;
 }
+
 .heroMainPages {
   padding-top: 13.4%;
 }
+
 .heroTitlePages {
   color: black;
   font-weight: 800;
   font-size: 4rem;
   max-width: max-content;
 }
+
 .heroTitlePagesWhite {
   color: white;
   font-weight: 800;
   font-size: 4rem;
   max-width: max-content;
 }
+
 .cardTitle {
   margin-top: 20%;
   margin-bottom: 10%;
   font-weight: 400;
   font-size: 1rem;
 }
+
 .cardTitleWhite {
   color: white;
   margin-top: 20%;
@@ -103,26 +119,29 @@
   font-weight: 400;
   font-size: 1rem;
 }
+
 .cardColor {
   height: 273px;
-  width: 273px;   
-  background-color: #D21D24; 
+  width: 273px;
+  background-color: #D21D24;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 25%;  
+  padding: 25%;
   margin-bottom: 25%;
 }
+
 .cardWhite {
   height: 273px;
-  width: 273px;   
-  background-color: #ffffff; 
+  width: 273px;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 25%;  
+  padding: 25%;
   margin-bottom: 25%;
 }
+
 .cards {
   background-color: transparent;
   margin: auto;
@@ -131,35 +150,42 @@
   gap: 1rem;
   max-width: max-content
 }
+
 .card {
   background-color: transparent;
   border: none;
   max-width: max-content
 }
+
 .cardsAcerca {
   display: flex;
   gap: 1rem;
 }
+
 .cardAcerca {
   margin-top: 80px;
-  margin-bottom: 20px;  
+  margin-bottom: 20px;
 }
+
 .textAcerca {
   margin-top: 80px;
-  margin-bottom: 20px;  
+  margin-bottom: 20px;
   font-size: 32px;
   text-align: justify;
 }
+
 .textContacto {
   color: white;
   margin-top: 80px;
-  margin-bottom: 20px;  
+  margin-bottom: 20px;
   font-size: 32px;
   text-align: justify;
 }
+
 .bold {
   font-weight: 800;
 }
+
 .footerMain {
   background-color: transparent;
   width: 100%;
@@ -167,6 +193,7 @@
   padding-right: 10.4%;
   padding-top: 22%;
 }
+
 .footerPages {
   background-color: transparent;
   width: 100%;
@@ -177,83 +204,103 @@
   .heroMain {
     padding-top: 32%;
   }
+
   .cards {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
+
   .cardsAcerca {
     display: flex;
     flex-direction: column;
   }
+
   .cardColor {
-    margin-bottom: 0%;  
+    margin-bottom: 0%;
   }
 }
+
 @media (max-width: 1200px) {
   .heroMain {
     padding-top: 42%;
   }
 }
+
 @media (max-width: 1024px) {
   .heroMain {
     padding-top: 52%;
   }
 }
+
 @media (max-width: 768px) {
   .heroMain {
     padding-top: 70%;
   }
+
   .heroTitle {
     font-size: 3rem;
   }
+
   .heroSubtitle {
     font-size: 1rem;
   }
+
   .logoLopezLaxague {
     content: url(../Img/Logo_LopezLaxague_white-01.svg);
   }
+
   .cards {
     display: flex;
     flex-direction: column;
   }
 }
+
 @media (max-width: 480px) {
   .heroMain {
     padding-top: 100%;
   }
+
   .heroTitle {
     font-size: 2rem;
   }
+
   .heroSubtitle {
     font-size: 1rem;
   }
 }
+
 @media (max-width: 320px) {
   .heroMain {
     padding-top: 150%;
     padding-left: 6%;
     padding-right: 6%;
   }
+
   .heroTitle {
     font-size: 1.7rem;
   }
+
   .heroSubtitle {
-    font-size: 1rem; 
+    font-size: 1rem;
   }
+
   .hero {
     size: 50rem;
   }
+
   .heroTitlePagesWhite {
     font-size: 3rem;
   }
+
   .heroTitlePages {
     font-size: 3rem;
   }
+
   .textAcerca {
     font-size: 1.5rem;
   }
+
   .textContacto {
     font-size: 1.5rem;
   }
 }
-
