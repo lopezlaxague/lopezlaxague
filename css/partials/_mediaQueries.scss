@@ -1,0 +1,104 @@
+@media (max-width: 1440px) {
+    .heroMain {
+      padding-top: 32%;
+    }
+  
+    .cards {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    }
+  
+    .cardsAcerca {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .cardColor {
+      margin-bottom: 0%;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .heroMain {
+      padding-top: 42%;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .heroMain {
+      padding-top: 52%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .heroMain {
+      padding-top: 70%;
+    }
+  
+    .heroTitle {
+      font-size: 3rem;
+    }
+  
+    .heroSubtitle {
+      font-size: 1rem;
+    }
+  
+    .logoLopezLaxague {
+      content: url(../Img/Logo_LopezLaxague_white-01.svg);
+    }
+  
+    .cards {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .heroMain {
+      padding-top: 100%;
+    }
+  
+    .heroTitle {
+      font-size: 1rem;
+    }
+  
+    .heroSubtitle {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .heroMain {
+      padding-top: 150%;
+      padding-left: 6%;
+      padding-right: 6%;
+    }
+  
+    .heroTitle {
+      font-size: 1rem;
+    }
+  
+    .heroSubtitle {
+      font-size: 1rem;
+    }
+  
+    .hero {
+      size: 50rem;
+    }
+  
+    .heroTitlePagesWhite {
+      font-size: 3rem;
+    }
+  
+    .heroTitlePages {
+      font-size: 3rem;
+    }
+  
+    .textAcerca {
+      font-size: 1.5rem;
+    }
+  
+    .textContacto {
+      font-size: 1.5rem;
+    }
+  }
