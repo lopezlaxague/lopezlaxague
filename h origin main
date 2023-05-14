@@ -1,0 +1,70 @@
+[33mcommit ad3b1a5b27d5a6325d1072dd1d26406a704c0083[m[33m ([m[1;36mHEAD -> [m[1;32mbranchfix[m[33m)[m
+Author: lopezlaxague <lllaxague@gmail.com>
+Date:   Sat May 13 20:58:13 2023 -0300
+
+    Added: SASS, animations and SEO
+
+[33mcommit c5c750e15457c68f95c3cd4329b9a724fc3a09eb[m[33m ([m[1;31morigin/branchfix[m[33m)[m
+Merge: 42c4745 340e584
+Author: lopezlaxague <lllaxague@gmail.com>
+Date:   Tue Apr 25 21:25:57 2023 -0300
+
+    Merge branch 'main' of https://github.com/lopezlaxague/lopezlaxague into branchfix
+
+[33mcommit 42c47458e237d95b9c9b1bab5ec0651dd82b0642[m
+Author: lopezlaxague <lllaxague@gmail.com>
+Date:   Tue Apr 25 21:25:48 2023 -0300
+
+    Fix: add header to contacto page
+
+[33mcommit 340e584d5a0b9e6d6266a4212e467722016ac752[m[33m ([m[1;31morigin/main[m[33m)[m
+Merge: 5d14579 23ffb5d
+Author: Lucas López Laxague <131091397+lopezlaxague@users.noreply.github.com>
+Date:   Tue Apr 25 21:22:26 2023 -0300
+
+    Merge pull request #1 from lopezlaxague/branchfix
+    
+    fix: merge with main
+
+[33mcommit 23ffb5d3f50a15ea4e14d6b61528b61922341800[m
+Author: lopezlaxague <lllaxague@gmail.com>
+Date:   Tue Apr 25 21:05:39 2023 -0300
+
+    fix: merge with main
+
+[33mcommit 5d145798466dbd594f7f73520231624e42bbc98a[m
+Author: lopezlaxague <lllaxague@gmail.com>
+Date:   Mon Apr 24 22:45:17 2023 -0300
+
+    Cambios de color en pagina casos
+
+[33mcommit 18a0d3162c108c6ba6a03f6536d2f60bc84a253d[m
+Merge: a287b64 c06cb8e
+Author: lopezlaxague <lllaxague@gmail.com>
+Date:   Mon Apr 24 22:05:33 2023 -0300
+
+    Merge branch 'main' of https://github.com/lopezlaxague/lopezlaxague
+
+[33mcommit a287b6471a8a4f4922197a1de78cc182f2fe917a[m
+Author: lopezlaxague <lllaxague@gmail.com>
+Date:   Mon Apr 24 22:02:46 2023 -0300
+
+    Agregado de etiquetas semánticas
+
+[33mcommit 78ad4c7b8dd7182b8d68502a0c63e8b5a34af415[m
+Author: lopezlaxague <lllaxague@gmail.com>
+Date:   Mon Apr 24 21:21:47 2023 -0300
+
+    Agregado de etiquetas semánticas
+
+[33mcommit c06cb8e905c72ff10fc47709ca3ded63f37ff6d7[m[33m ([m[1;32mmain[m[33m)[m
+Author: lopezlaxague <lllaxague@gmail.com>
+Date:   Mon Apr 24 21:21:47 2023 -0300
+
+    co
+
+[33mcommit 2c800b7400c6184810365f9b9bf8c53dea8d421b[m
+Author: lopezlaxague <lllaxague@gmail.com>
+Date:   Sun Apr 23 21:09:41 2023 -0300
+
+    Primer commit

@@ -274,23 +274,26 @@
 }
 @media (max-width: 1200px) {
   .heroMain {
-    padding-top: 42%;
+    display: flex;
+    flex-direction: column;
   }
 }
 @media (max-width: 1024px) {
   .heroMain {
-    padding-top: 52%;
+    display: flex;
+    flex-direction: column;
   }
 }
 @media (max-width: 768px) {
   .heroMain {
-    padding-top: 70%;
+    display: flex;
+    flex-direction: column;
   }
-  .heroTitle {
+  .heroMain .heroTitle {
     font-size: 3rem;
   }
-  .heroSubtitle {
-    font-size: 1rem;
+  .heroMain .heroSubtitle {
+    font-size: 2rem;
   }
   .logoLopezLaxague {
     content: url(../Img/Logo_LopezLaxague_white-01.svg);
@@ -302,26 +305,34 @@
 }
 @media (max-width: 480px) {
   .heroMain {
-    padding-top: 100%;
+    display: flex;
+    flex-direction: column;
   }
-  .heroTitle {
-    font-size: 1rem;
+  .heroMain .heroTitle {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
   }
-  .heroSubtitle {
+  .heroMain .heroSubtitle {
     font-size: 1rem;
+    display: flex;
+    flex-direction: column;
   }
 }
 @media (max-width: 320px) {
   .heroMain {
-    padding-top: 150%;
-    padding-left: 6%;
-    padding-right: 6%;
+    display: flex;
+    flex-direction: column;
   }
-  .heroTitle {
+  .heroMain .heroTitle {
     font-size: 1rem;
+    display: flex;
+    flex-direction: column;
   }
-  .heroSubtitle {
+  .heroMain .heroSubtitle {
     font-size: 1rem;
+    display: flex;
+    flex-direction: column;
   }
   .hero {
     size: 50rem;
