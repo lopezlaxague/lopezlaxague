@@ -1,57 +1,83 @@
 .heroMain {
-    display: grid;
-    gap: 1rem;
+  display: grid;
+  gap: 1rem;
+  max-width: max-content;
+  max-height: max-content;
+  padding-top: 13.4%;
+  padding-left: 13.4%;
+  padding-right: 13.4%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr, 1fr;
+
+  .heroTitle {
+    -webkit-animation: text-focus-in 1s cubic-bezier(.55, .085, .68, .53) both;
+    animation: text-focus-in 1s cubic-bezier(.55, .085, .68, .53) both;
+    color: black;
+    font-weight: 800;
+    font-size: 4rem;
+    grid-column: 1;
+    grid-row: 2/2;
+    display: flex;
+    text-align: left;
     max-width: max-content;
-    max-height: max-content;
-    padding-top: 13.4%;
-    padding-left: 13.4%;
-    padding-right: 13.4%;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr, 1fr;
 
-    .heroTitle {
-        -webkit-animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both;
-        animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both;
-        color: black;
-        font-weight: 800;
-        font-size: 4rem;
-        grid-column: 1;
-        grid-row: 2/2;
-        display: flex;
-        text-align: left;
-        max-width: max-content; 
-
-      }
-      
-    .heroSubtitle {
-        -webkit-animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both;
-        animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both;
-        color: black;
-        font-weight: 300;
-        font-size: 2rem;
-        grid-column: 1;
-        grid-row: 3/3;
-        display: flex;
-        text-align: left;
-      }
   }
 
-  .heroMainPages {
-    padding-top: 13.4%;
+  .heroSubtitle {
+    -webkit-animation: text-focus-in 1s cubic-bezier(.55, .085, .68, .53) both;
+    animation: text-focus-in 1s cubic-bezier(.55, .085, .68, .53) both;
+    color: black;
+    font-weight: 300;
+    font-size: 2rem;
+    grid-column: 1;
+    grid-row: 3/3;
+    display: flex;
+    text-align: left;
+  }
+}
 
-    .heroTitlePages {
-        color: black;
-        font-weight: 800;
-        font-size: 4rem;
-        max-width: max-content;
-      }
+.heroMainPages {
+  padding-top: 13.4%;
 
-    .heroTitlePagesWhite {
-        color: white;
-        font-weight: 800;
-        font-size: 4rem;
-        max-width: max-content;
-      }
+  .heroTitlePages {
+    color: black;
+    font-weight: 800;
+    font-size: 4rem;
+    max-width: max-content;
   }
 
-    @-webkit-keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}@keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}
+  .heroTitlePagesWhite {
+    color: white;
+    font-weight: 800;
+    font-size: 4rem;
+    max-width: max-content;
+  }
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0
+  }
+
+  100% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0
+  }
+
+  100% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1
+  }
+}
